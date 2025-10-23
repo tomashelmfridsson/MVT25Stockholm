@@ -1,4 +1,4 @@
-package kvot;
+package exceptions;
 
 import java.util.Scanner;
 
