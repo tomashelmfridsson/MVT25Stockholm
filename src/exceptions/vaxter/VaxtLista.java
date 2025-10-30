@@ -23,8 +23,10 @@ public class VaxtLista {
 
     // skapa en array 5 med poster
     // varje post skall ha ett Växt objekt
+    // Vaxt[] minaVaxter = new Vaxt[5];
     // [ Objekt Växt1, Objekt växt 2.....]  Arrayens utseende
 
     // // Utskrift av objekten i arrayen
+
 
 }

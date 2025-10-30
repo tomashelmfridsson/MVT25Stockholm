@@ -3,7 +3,6 @@ package exceptions;
 import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.SortedMap;
 
 public class IntegerArray {
     public static void main(String[] args) {

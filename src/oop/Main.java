@@ -8,16 +8,16 @@ import java.util.Scanner;
 public class Main {
      public static void main(String[] args) {
          try {
-             Frog frogBoll = new Frog(name(), age());
+             Frog frogBoll = new Frog(name(), age(),3);
              frogBoll.getNamn();
-             frogBoll.beteende(6,3);
+             frogBoll.beteende();
              frogBoll.beteende();
              frogBoll.getMat();
 
          } catch (Exception e){
              System.out.println("Det blev fel");
          }
-         Dog fido = new Dog("Fido");
+         Dog fido = new Dog("Fido",1,"asd");
          fido.getNamn();
          fido.beteende();
          fido.getMat();
