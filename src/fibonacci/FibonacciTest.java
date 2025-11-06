@@ -3,6 +3,7 @@ package fibonacci;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class FibonacciTest {
     // 0 1 1 2 3 5 8 13 21 34
@@ -31,6 +32,16 @@ public class FibonacciTest {
     @Test
     void fibonacci10(){
         assertEquals(34, Fibonacci.fibonacci(10));
+
+        String namn = "Tomas";
+        String[] amnArr = namn.split("");
+    }
+
+    @Test
+    public void testFibo(){
+        assertThrows(NegativeArraySizeException.class, () -> {
+            Fibonacci.fibonacci(-1);
+        });
     }
 
 //    @Test
