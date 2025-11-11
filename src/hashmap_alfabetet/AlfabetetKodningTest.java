@@ -9,8 +9,9 @@ public class AlfabetetKodningTest {
     public void bokstavenA(){
         assertEquals("!",AlfabetetKodning.kryptera("A"));
     }
-//    @Test
-//    public void bokstavenYUR(){
-//        assertEquals(";~}",AlfabetetKodning.kryptera("YUR"));
-//    }
+
+    @Test
+    public void bokstavenYUR(){
+        assertEquals(";~}",AlfabetetKodning.kryptera("YUR"));
+    }
 }
