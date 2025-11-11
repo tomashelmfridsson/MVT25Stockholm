@@ -1,6 +1,4 @@
-package arraylist_name;
-
-import hashmap_alfabetet.AlfabetetKodning;
+package hashmap_alfabetet;
 
 import java.util.Scanner;
 
