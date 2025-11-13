@@ -26,4 +26,8 @@ public class AlfabetetKodning {
         }
         return  krypteradText;
     }
+
+    public static String dekryptera(String s) {
+        return ""; // Ej klart
+    }
 }
