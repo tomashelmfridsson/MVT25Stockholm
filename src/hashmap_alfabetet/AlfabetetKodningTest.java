@@ -14,4 +14,15 @@ public class AlfabetetKodningTest {
     public void bokstavenYUR(){
         assertEquals(";~}",AlfabetetKodning.kryptera("YUR"));
     }
+
+    @Test
+    public void decryptera(){
+        assertEquals("YUR",AlfabetetKodning.dekryptera(";~}"));
+    }
+
+    @Test
+    public void testAvMellanslag(){
+        assertEquals(";~} ;~}",AlfabetetKodning.kryptera("YUR YUR"));
+    }
+
 }
